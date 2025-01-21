@@ -111,19 +111,23 @@ const CombinedHealthcarePage = () => {
       <div className="flex relative">
         {/* Left Sticky Section */}
         <div className="w-1/2 sticky top-0 h-screen p-12 bg-gradient-to-b from-gray-900 to-gray-900 flex flex-col justify-center">
-          <h1 className="text-5xl font-bold text-white mb-8">
+          <h1 className="text-5xl font-bold text-white mb-8 mt-8">
             Technology-Driven
             <br />
             Healthcare Solutions
-           
           </h1>
-          <p className="text-gray-400 text-lg">
+          <p className="text-gray-400 text-lg mb-8">
             Step into the future of healthcare with our cutting-edge suite of
             innovative technologies, meticulously crafted to transform your
             business. As a leading healthcare software development company, our
             team creates advanced healthcare solutions that offer a seamless
             patient-centric experience.
           </p>
+          <img
+            src="https://i.pinimg.com/736x/04/e6/f7/04e6f7113cd5324e0501ac881bb352b5.jpg"
+            alt=""
+            className="h-72"
+          />
         </div>
 
         {/* Right Scrollable Section */}

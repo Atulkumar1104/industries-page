@@ -82,7 +82,7 @@ const HealthcareServices = () => {
       <div className="backdrop-blur-lg bg-gradient-to-r from-black to-violet-500/30 rounded-3xl overflow-hidden border border-white/10 shadow-2xl max-w-7xl mx-auto">
         <div className="flex flex-col md:flex-row h-[500px]">
           {/* Left scrollable panel with hidden scrollbar */}
-          <div className="w-full md:w-1/2 overflow-y-auto p-6 bg-gradient-to-b from-orange-400/40 to-red-400/50 border-r border-white/10 scrollbar-hide">
+          <div className="w-full md:w-1/2 overflow-y-auto p-6 bg-gradient-to-b from-orange-400 to-red-500 border-r border-white/10 scrollbar-hide">
             <style>
               {`
                 .scrollbar-hide::-webkit-scrollbar {
